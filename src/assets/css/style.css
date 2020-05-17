@@ -1,0 +1,58 @@
+#imgaenBack{
+	background: url("../images/ready.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-size:100% auto;
+
+}
+.buscador{
+	background-color: #e67e22;
+}
+.buscador_1{
+	background-color: #16a085;
+}
+.news-left-grid h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.1em;
+}	
+
+.img_peli{
+	border-radius: 25px;
+	transition: .2s; /* Animation */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 10px;
+
+}
+.img_peli:hover{
+transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+cursor: pointer;
+}
+ 
+.detail{
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:white;
+padding-top: 50px;
+}
+.cardNuevo{
+	color:black;
+}
+
+#btnBuscador{
+	text-align: left;
+}
+
+li.menu-hover:hover{
+	background-color:#f1c40f;
+}
+.link-text{
+	text-decoration: none !important;
+}
+li.marker{
+	background-color: #f1c40f;
+}
+.card_color{
+	color:black;
+}
