@@ -11,7 +11,7 @@ render(){
 
         <div className="card-deck text-center">
             <div className="card mb-3 box-shadow">
-            <h3><b><i>Nuestra Recomencacion Semanal</i></b></h3>
+            <h3><b><i>Nuestra Recomendación Semanal</i></b></h3>
                 <div className="card-body">
                     <h1><b>{this.props.title}</b></h1>
                     <ul className="list-unstyled mt-3 mb-4">
