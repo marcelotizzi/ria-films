@@ -18,8 +18,8 @@ export class Nosotros extends Component {
                     <Header />
 
                     <div id="content" className="detail">
-                        <h3>¿Quienes Somos?</h3><br />
-                        <h5>Ellos son 3 colegas que se unieron con un unico fin <br /> Desarrollar una super app
+                        <h3>¿Quiénes Somos?</h3><br />
+                        <h5>Ellos son 3 colegas que se unieron con un único fin <br /> Desarrollar una super app
                         de Cine!!!
                         <br />
                         <b>Actuaciones estelares de...</b>

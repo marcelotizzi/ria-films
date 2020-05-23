@@ -57,7 +57,7 @@ export class Home extends Component {
 
                                 <div className="col-md-7 offset-md-2">
                                     <br />     <br />
-                                    <h2><b>Nuestras Mejores Recomencaciones<br /><i>Peliculas </i></b></h2>
+                                    <h2><b>Nuestras Mejores Recomendaciones<br /><i>Películas </i></b></h2>
                                 <hr/>
                                 </div>
                                 <div className="col-md-2">
@@ -74,7 +74,7 @@ export class Home extends Component {
 
                                 <div className="col-md-7 offset-md-2">
                                     <br />     <br />
-                                    <h2><b>Nuestras Mejores Recomencaciones<br /><i>Series</i></b></h2>
+                                    <h2><b>Nuestras Mejores Recomendaciones<br /><i>Series</i></b></h2>
                                     <hr/>
                                 </div>
                                 <div className="col-md-3">

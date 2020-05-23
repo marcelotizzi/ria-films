@@ -56,7 +56,7 @@ _handleChange = (e) => {
               <div className="rotate-n-15">
                 <FontAwesomeIcon icon={faVideo} size="lg" style={{ "color": "white" }} />
               </div>
-              <h3>Ria Films! <br />Buscador de Peliculas y Series</h3>
+              <h3>Ria Films! <br />Buscador de Películas y Series</h3>
               <br />
               <div className="input-group mb-3">
                 <input type="text" className="form-control" onChange={this._handleChange}

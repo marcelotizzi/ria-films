@@ -42,9 +42,9 @@ export class DetalleFilm extends Component {
                                 <div className="card-body cardNuevo">
                                     <h1><b>{this.props.detalle.Title}</b></h1>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li><b>Genero: </b>{this.props.detalle.Genre}</li>
+                                        <li><b>Género: </b>{this.props.detalle.Genre}</li>
                                         <li><b>Año: </b>{this.props.detalle.Year}</li>
-                                        <li><b>Valoracion IMDB:</b> {this.props.detalle.imdbRating}/10</li>
+                                        <li><b>Valoración IMDB:</b> {this.props.detalle.imdbRating}/10</li>
                                          {this.props.detalle.Type==="series" ?
                                           <li><b>Temporadas:</b> {this.props.detalle.totalSeasons}</li>
 
@@ -52,22 +52,22 @@ export class DetalleFilm extends Component {
 
                                         <li><b>Trama:</b> {this.props.detalle.Plot}</li><br />
                                         <li> <button type="button" className="btn btn-success">
-                                            Calificacion: {this.props.detalle.Rated}</button>
+                                            Calificación: {this.props.detalle.Rated}</button>
                                         </li>
                                     </ul>
                                     <hr />
                                     <h5>Más Detalles</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li><b>Duracion:</b> {this.props.detalle.Runtime}</li>
+                                        <li><b>Duración:</b> {this.props.detalle.Runtime}</li>
                                         <li><b>Premios:</b> {this.props.detalle.Awards}</li>
-                                        <li><b>Pais Origen: </b>{this.props.detalle.Country}</li>
+                                        <li><b>País Origen: </b>{this.props.detalle.Country}</li>
                                         <li><b>Actores: </b>{this.props.detalle.Actors}</li>
                                         <br />
                                         <li><b>Director:</b> {this.props.detalle.Director}</li>
 
-                                        <li><b>Producion:</b> {this.props.detalle.Production}</li>
+                                        <li><b>Producción:</b> {this.props.detalle.Production}</li>
 
-                                        <li><b>Esctritores:</b> {this.props.detalle.Writer}</li>
+                                        <li><b>Escritores:</b> {this.props.detalle.Writer}</li>
 
                                     </ul>
 

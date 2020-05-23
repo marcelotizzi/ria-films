@@ -6,12 +6,12 @@ export class TablaReferenciaPeliculas extends Component {
     render() {
         return (
             <div>
-                <h3>Referencias de Califacion Peliculas</h3>
+                <h3>Referencias de Calificación Películas</h3>
                 <table className="col-md-10 offset-md-1 table table-sm" style={{ color:"white" }}>
                     <thead>
                         <tr>
-                            <th scope="col">Identificador	</th>
-                            <th scope="col">Edad Minima</th>
+                            <th scope="col">Identificador</th>
+                            <th scope="col">Edad Mínima</th>
                             <th scope="col">Recomendación</th>
                             <th scope="col" style={{width:  "50%"}}>Definición</th>
                         </tr>

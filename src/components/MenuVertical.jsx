@@ -36,7 +36,7 @@ render(){
    
      <Link to="/peliculas" className="link-text">
          <li   className={(this.props.activo === "peliculas") ? "nav-item menu-hover menu-hover marker" : "nav-item menu-hover"}>
-         Peliculas y Series<br/>
+         Películas y Series<br/>
          <FontAwesomeIcon icon={faFilm} size="2x" style={{"color":"white"}}/>
          </li>
          </Link>
@@ -45,7 +45,7 @@ render(){
          <Link to="/nosotros" className="link-text">
 
          <li   className={(this.props.activo === "nosotros") ? "nav-item menu-hover menu-hover marker" : "nav-item menu-hover"}>
-             Nostros<br/>
+             Nosotros<br/>
          <FontAwesomeIcon icon={faMask} size="2x" style={{"color":"white"}}/>
          </li>
          </Link>

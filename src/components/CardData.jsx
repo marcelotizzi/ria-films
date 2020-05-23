@@ -15,9 +15,9 @@ render(){
                 <div className="card-body">
                     <h1><b>{this.props.title}</b></h1>
                     <ul className="list-unstyled mt-3 mb-4">
-                        <li><b>Genero: </b>{this.props.Genre}</li>
+                        <li><b>Género: </b>{this.props.Genre}</li>
                         <li><b>Año: </b>{this.props.Year}</li>
-                        <li><b>Valoracion IMDB:</b> {this.props.imdbRating}/10</li>
+                        <li><b>Valoración IMDB:</b> {this.props.imdbRating}/10</li>
                        
                         <li><b>Trama:</b> {this.props.Plot}</li>
                         <li> <Link to="/details/tt1677720"><button type="button" className="btn btn-success">

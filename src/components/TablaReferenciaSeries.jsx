@@ -6,7 +6,7 @@ export class TablaReferenciaSeries extends Component {
     render() {
         return (
             <div>
-                <h3>Referencias de Califacion Series </h3>
+                <h3>Referencias de Calificación Series </h3>
                 <table className="col-md-10 offset-md-1 table table-sm" style={{ color:"white" }}>
                     <thead>
                         <tr>
