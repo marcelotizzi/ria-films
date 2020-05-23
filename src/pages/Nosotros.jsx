@@ -25,8 +25,8 @@ export class Nosotros extends Component {
                         <b>Actuaciones estelares de...</b>
                         </h5>
                         <div className="row">
-                            <Tizzi/>
                             <Tabarez/>
+                            <Tizzi/>
                             <Mansi/>
 
                         </div>
